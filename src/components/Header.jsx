@@ -1,15 +1,16 @@
+import { Typography } from '@mui/material';
 import React, { Component } from 'react';
 
 class Header extends Component {
-  render() {
-    return (
-      <header>
-        <h1>
+	render() {
+		return (
+			<header>
+				<Typography variant='h1'>
           Sistema Solar
-        </h1>
-      </header>
-    );
-  }
+				</Typography>
+			</header>
+		);
+	}
 }
 
 export default Header;

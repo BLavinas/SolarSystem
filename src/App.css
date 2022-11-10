@@ -1,3 +1,18 @@
-.App {
+body {
+  color: whitesmoke;
   text-align: center;
+  background-image: url(./images/bgsolarsystem.jpg);
+}
+.planetCard {
+  display: flex;
+  margin-top: 5vw;
+}
+.missionCard {
+  display: flex;
+  margin-top: 5vw;
+  flex-wrap: inherit;
+}
+.titles {
+  display: flex;
+  align-items: center;
 }
